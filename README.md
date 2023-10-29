@@ -1,2 +1,5 @@
-"# 1t-hw-3.3" 
-"# 1t-hw-3.4" 
+docker-compose up -d
+docker-compose down -v
+
+docker-compose up airflow-init
+wsl --shutdown
