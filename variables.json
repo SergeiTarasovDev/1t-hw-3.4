@@ -1,0 +1,5 @@
+{
+    "RANDOMUSER_URL_API": "https://randomuser.me/api/",
+    "conn_name": "conn1",
+    "input_file": "/opt/airflow/input/person.csv"
+}
