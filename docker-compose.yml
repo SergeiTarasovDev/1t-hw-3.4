@@ -64,6 +64,7 @@ x-airflow-common:
     - ./airflow/dags:/opt/airflow/dags
     - ./airflow/logs:/opt/airflow/logs
     - ./airflow/plugins:/opt/airflow/plugins
+    - ./airflow/plugins:/opt/airflow/input
     - ./airflow/raw_data:/usr/raw_data
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:

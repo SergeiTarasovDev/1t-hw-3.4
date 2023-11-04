@@ -4,9 +4,9 @@
     "description": "",
     "login": "postgres",
     "password": "postgres",
-    "host": "172.17.0.1",
-    "port": 5478,
-    "schema": "person_db",
+    "host": "host.docker.internal",
+    "port": 5430,
+    "schema": "ar_testdb",
     "extra": "{}"
   },
   "fs_conn1": {
